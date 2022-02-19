@@ -1,0 +1,6 @@
+#RED     = {#T=%;:OUT"$R",#T,"$W"};
+#GREEN   = {#T=%;:OUT"$G",#T,"$W"};
+#BLUE    = {#T=%;:OUT"$B",#T,"$W"};
+#YELLOW  = {#T=%;:OUT"$Y",#T,"$W"};
+#CYAN    = {#T=%;:OUT"$C",#T,"$W"};
+#MAGENTA = {#T=%;:OUT"$M",#T,"$W"};

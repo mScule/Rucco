@@ -1,0 +1,28 @@
+﻿
+$Y**Arrays**$W
+
+Arrays works inside strings by using
+square brackets to differentiate items.
+
+Item can have value, and a key.
+
+Example of array item containing only value
+  ["im value"]
+
+Example of array item containing value and key
+  ["im key" : "im value"]
+
+Example of array
+  {[123][234]["stuff":"block"]}
+
+Example of array containing two arrays
+  {
+	  [{[123][234][345]}]
+	  [{[456][567][678]}]
+  }
+
+Previous $Mdoc_booleans$W;
+
+You have hit end of the documentation. Hope you
+can now do atleast something with RP and Rucco
+console!

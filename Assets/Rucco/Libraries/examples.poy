@@ -1,0 +1,25 @@
+#FIZZBUZZ =
+{
+    :LIBRARY "math.poy";
+
+    #TIMES = %;
+    #I = 0;
+    
+    :TIMES #TIMES,
+    {
+        #FIZZ = :TASK #MODULUS, #I, 3;
+        #BUZZ = :TASK #MODULUS, #I, 5;
+        
+        :WHEN #FIZZ, "==", 0, {:OUT "Fizz"};
+        :WHEN #BUZZ, "==", 0, {:OUT "Buzz"};
+        
+        :WHEN #FIZZ, "!=", 0,
+        {
+            :WHEN #BUZZ, "!=", 0, ":OUT #I"
+        };
+        
+        :OUT "\n";
+
+        #I++
+    }
+};

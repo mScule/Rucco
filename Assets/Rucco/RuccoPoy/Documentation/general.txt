@@ -1,0 +1,49 @@
+﻿
+$Y**GENERAL**$W
+
+$MStatement structure$W
+
+  RP language is very small and limited.
+  The syntax consist of two types of
+  statements: assignment statements, and
+  command statements.
+
+  Assignment statement takes in variablename
+  and adds value to it. There are multiple
+  different types of assignment operators
+  avaliable. 
+
+  There can be two types of commands for
+  command statements: CustomCommands, and 
+  ConsoleCommands. The difference between the
+  two is that different scenes might contain
+  different set of custom commands, while
+  every scene has the same console commands
+  avaliable.
+
+  Statements are ended by giving semicolon.
+  If your program consists about only one
+  statement, it can be left out, and might
+  made the program run little bit faster.
+
+$MCommand, and variable names$W
+
+  Command, and variable names are case
+  insensitive, so by writing "out",
+  "OuT", and "OUT" will all call the
+  same command. Everytime you write variable
+  name, or command call the tokenizer
+  switches the lower case characters to upper
+  case characters.
+
+$MComments$W
+
+  Comments can be added to the code by adding
+  question mark to it. Everything after 
+  question mark is discarded by tokenizer
+  until a new line, expect when tokenizer
+  detects other question mark. This way, you
+  can add comments between parts of code in
+  one line.
+
+Next $Mdoc_commands$W;

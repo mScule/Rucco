@@ -1,0 +1,15 @@
+﻿
+$Y**Booleans**$W
+
+You can use booleans in RP in expressions.
+You can't have actual variable being type of
+boolean, but you can contain string containing
+boolean statement, that you can evaluate with 
+run command when you want.
+
+The syntax of booleans is almost identical with
+most c type languages, but you can't use
+parentheses to have higher order boolean checks.
+
+Previous $Mdoc_output$W;
+Next     $Mdoc_arrays$W;

@@ -1,0 +1,2 @@
+#POWER   = {#A=%;#B=%;#C=#A;:TIMES#B-2,{#C&="*"&#A};:RUN"#C="&#C;:OUT#C};
+#MODULUS = {#A=%;#B=%;:OUT#A-(:INTEGER#A/#B)*#B};

@@ -1,0 +1,61 @@
+﻿
+$Y**OPERATIONS**$W
+
+$MAssignment operator$W =
+
+  used for assigning values to variables
+
+$MOperators that work with both datatypes$W
+
+  String append operator &
+  Parentheses            ()
+
+$MOperators that work variable containing any
+type of value$W
+
+  Assignment string append operator &=
+
+$MOperators that work only with float
+datatype$W
+
+  Arithmetic operators +, -, *, /
+
+$MOperators that work only with variables
+containing float$W
+
+  Assignment addition operator       +=
+  Assignment subtraction operator    -=
+  Assignment multiplication operator *=
+  Assignment division operator       /=
+  Increment operator                 ++
+  Decrement operator                 --
+
+$MComparison operators$W
+
+  (*works with strings)
+  
+  *Not equal !=
+  *Equal     ==
+
+   Smaller   <
+   Larger    >
+
+   Smaller or equal <=
+   Larger  or equal >=
+
+$MBoolean operators$W
+
+  And &&
+  Or ||
+
+$MArray operator$W |
+
+  You use this operator for accessing
+  array item. If string is not array,
+  error will be thrown. If you want to
+  access array item inside array item,
+  you just stack array operators like
+  so: #item|0|0|0
+
+Previous $Mdoc_datatypes$W;
+Next     $Mdoc_output$W;

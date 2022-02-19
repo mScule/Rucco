@@ -1,0 +1,47 @@
+﻿
+$Y**COMMANDS**$W
+
+$MCommand Types$W
+
+  As mentioned before, there is two types of
+  commands. Custom, and ConsoleCommands. You
+  can call them by using "flags" that tell to
+  the tokenizer that which type of command is
+  going to be called. By giving '@', you tell
+  the tokenizer to create a custom command
+  token with the value of upcoming characters
+  until space. By writing just text, you
+  signal to the tokenizer that you want to
+  create console command token.
+
+$MCommand statement syntax$W
+
+  Command statement consist of command name 
+  and parameter list. The syntax is always
+  the same, but different commands use
+  different amounts of parameters as they
+  wish. For example, these documentation
+  calls, are console commands that doesn't 
+  take any parameters. There is indepth 
+  description for every command in their own
+  documentation command
+  $Mdoc_console_commands$W.
+
+  $CSyntax$W
+
+  commandName param1, param2, param3 ...
+
+  $CExample
+
+  $G? calling ConsoleCommand "OUT",
+  ? that prints stuff to screen.
+  $M:out$W "stuff";
+
+  $G? Here we print hello 10 times
+  $M:times $Y10$W, 
+  {
+      $M:out $W"hello there!$M\n$W";
+  };
+
+Previous $Mdoc_general$W;
+Next     $Mdoc_console_commands$W;

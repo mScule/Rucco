@@ -1,0 +1,112 @@
+﻿
+$Y**CONSOLE COMMANDS**$W
+
+$MOUT$W
+
+  Out command has two purposes. First is that
+  it can be used for printing stuff to
+  screen. Other is that you can use it as
+  value return inside strings that is used as
+  tasks.
+
+$MEDIT$W
+
+  Takes in variable name, and loads the
+  variable contents into the input field.
+
+$MWHEN$W
+
+  Takes in two values, relational operator
+  (inside string), and two strings as
+  parameters. First value is taken first,
+  secondly the relational operator, third the
+  second value. Fourth is the string that
+  contains statements that will be executed 
+  if the condition is true. Fifth is the
+  string that contains statements that will
+  be executed if the condition is false.
+  Fifth parameter is optional.
+
+  $CSyntax$W
+  
+  $M:when$W boolean expr, {string1}, {string2};
+
+  $CExample$W
+    
+  $M:when $Y10$W < $Y20$W, {
+      $M:print$W "true";
+  },{
+      $M:print$W "false";
+  };
+
+$MRUN$W
+
+  Takes in strings, and tries to interprete
+  the contents. Doesn't have scope.
+
+$MTIMES$W
+
+  Simple loop command, that takes in number
+  and turns it to int, and loops given string
+  given times. Doesn't have scope.
+
+  $CExample
+  
+  $M:times $Y10$W, "
+      $M:out $M\"$Whello there!$M\n\"$W;
+  ";
+
+$MLIBRARY$W
+
+  Tries to run contents of given library
+  file. Library files are poy files, that are
+  created outside the rudeco console, and
+  placed inside library folder.
+
+$MTASK$W
+
+  Task is what you would call a function in
+  other languages. Task command takes in
+  string, or variable, that contains the
+  statements, and interpretes it like run
+  command. Tasks has the ability to use
+  '%' characters as a placeholders, 
+  where it adds the given parameters in
+  order. Task has it's own scope, but copies
+  existing variables into it.
+
+  $CSyntax$W
+
+  $M:task $C#varOrString$W, param1, param2, ...
+
+  $CExample$W
+
+  $C#sayTimes$W = {
+
+      $C#say$W = %;
+      $C#times$W = %;
+
+      $M:times $C#times$W, {
+        $:out $C#say$W, "$M\n$W";
+      }
+  };
+
+  $M:out:task $C#sayTimes$W, "hello", $Y10$W;
+
+$MINTEGER$W
+
+  Removes everything after the decimal point.
+  It doesn't round the number;
+
+$MDELETE$W
+
+  Deletes variables, that is given as
+  parameters from the variable list.
+
+$MDELETE_ALL$W
+
+  Deletes all variables in the current
+  scope.
+
+Previous $Mdoc_commands$W;
+Next $Mdoc_custom_commands$W;

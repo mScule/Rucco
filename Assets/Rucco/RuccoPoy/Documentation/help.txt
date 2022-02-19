@@ -1,0 +1,71 @@
+﻿
+$Y**HELP**$W
+
+Rucco (Runtime Cheating COnsole) is a cheat
+console, that uses RuccoPoy interpreter as
+it's user interface. Rucco can be used
+by writing the commands straight into the
+console, or by running a script file with 
+$Mlibrary$W command. RuccoPoy is a small
+interpreted language that was designed for
+this purpose. You can get to know the syntax
+of RP more in depth by reading through the 
+rest of the documentation. Here is the
+commands that prints the documentation in 
+recommended order:
+
+  $Mdoc_general$W;
+    
+    Goes through the basic syntax structure
+    of Poy.
+
+  $Mdoc_commands$W;
+    
+    Explains difference of console, and
+    custom commands, and how to access them.
+
+  $Mdoc_console_commands$W;
+  
+    Goes through every console command, and
+    how to use them.
+
+  $Mdoc_custom_commands$W;
+  
+    Contains the explanations of
+    custom commands.
+
+  $Mdoc_variables$W;
+  
+    Explains how to declare and use
+    variables.
+
+  $Mdoc_datatypes$W;
+  
+    Goes through variable datatypes
+    String, and Float.
+
+  $Mdoc_operations$W;
+  
+    Goes through included operations that can
+    be used to manipulate variables.
+
+  $Mdoc_output$W;
+
+    Explains how to change the style of the
+    output text.
+
+  $Mdoc_booleans$W;
+
+    Goes through the syntax of boolean
+    expressions in the RP language.
+
+  $Mdoc_arrays$W;
+
+    Explains how to treat strings as arrays.
+
+Remember to add keyword "out" everytime before the doc file you want to access!
+
+After you read these through, you should have
+decent understanding on what you can do with
+the Rucco console and RuccoPoy language!
+  
